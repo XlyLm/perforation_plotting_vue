@@ -1,0 +1,160 @@
+//a标签
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+//清除浮动
+.clearFix::before, .clearFix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+//文本换行
+.wd-w {
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+//行内文本隐藏
+.ft-h {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+//设置盒子类型
+.bs-c { box-sizing: content-box; }
+.bs-b { box-sizing: border-box; }
+.d-b { display: block; }
+.d-i { display: inline; }
+.d-ib { display: inline-block; }
+.d-n { display: none; }
+
+//设置弹性盒子
+.d-f { display: flex; }
+.d-fb { .d-f(); justify-content: space-between; }
+.d-fa{ .d-f(); justify-content: space-around; }
+
+//设置浮动
+.f-l { float: left; }
+.f-r { float: right; }
+
+//设置文本对齐方式
+.ta-c { text-align: center; }
+.ta-l { text-align: left; }
+.ta-r { text-align: right; }
+
+//设置元素居中
+.align {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+//标题
+.title{
+  font-weight: bold;
+  color: #000;
+}
+.small{ font-size: 80%; }
+
+//设置超出隐藏
+.o-h { overflow: hidden; }
+
+//magin系列
+.mg-a { margin: 0 auto; }
+.mg-0{ margin: 0; }
+
+.mgt-10{ margin-top: 10px; }
+.mgr-10{ margin-right: 10px; }
+.mgb-10{ margin-bottom: 10px; }
+.mgl-10{ margin-left: 10px; }
+
+.mgt-20{ margin-top: 20px; }
+.mgr-20{ margin-right: 20px; }
+.mgb-20{ margin-bottom: 20px; }
+.mgl-20{ margin-left: 20px; }
+
+.mgt-30{ margin-top: 30px; }
+.mgr-30{ margin-right: 30px; }
+.mgb-30{ margin-bottom: 30px; }
+.mgl-30{ margin-left: 30px; }
+
+.mgt-40{ margin-top: 40px; }
+.mgr-40{ margin-right: 40px; }
+.mgb-40{ margin-bottom: 40px; }
+.mgl-40{ margin-left: 40px; }
+
+.mgt-50{ margin-top: 50px; }
+.mgr-50{ margin-right: 50px; }
+.mgb-50{ margin-bottom: 50px; }
+.mgl-50{ margin-left: 50px; }
+
+//padding系列
+.pd-0{ padding: 0; }
+.pd-10{ padding: 10px; }
+.pd-20{ padding: 20px; }
+.pd-30{ padding: 30px; }
+.pd-40{ padding: 40px; }
+.pd-50{ padding: 50px; }
+
+.pdt-10{ padding-top: 10px; }
+.pdt-20{ padding-top: 20px; }
+.pdt-30{ padding-top: 30px; }
+.pdt-40{ padding-top: 40px; }
+.pdt-50{ padding-top: 50px; }
+
+.pdl-10{ padding-left: 10px; }
+.pdl-20{ padding-left: 20px; }
+.pdl-30{ padding-left: 30px; }
+.pdl-40{ padding-left: 40px; }
+.pdl-50{ padding-left: 50px; }
+
+.pdr-10{ padding-right: 10px; }
+.pdr-20{ padding-right: 20px; }
+.pdr-30{ padding-right: 30px; }
+.pdr-40{ padding-right: 40px; }
+.pdr-50{ padding-right: 50px; }
+
+.pdb-10{ padding-bottom: 10px; }
+.pdb-20{ padding-bottom: 20px; }
+.pdb-30{ padding-bottom: 30px; }
+.pdb-40{ padding-bottom: 40px; }
+.pdb-50{ padding-bottom: 50px; }
+
+//color系列
+.c-0{ color: #000; }
+.c-3{ color: #333; }
+.c-6{ color: #666; }
+.c-9{ color: #999; }
+.c-peony{ color: #C10D0C; }
+.c-wathet{ color: #2bb4b4; }
+.c-blue{ color: cornflowerblue; }
+
+//背景
+.bgc-white{ background-color: white; }
+.bgc-f0{ background-color: #f0f0f0; }
+.bgc-f2{ background-color: #f2f2f2; }
+.bgc-f4{ background-color: #f4f4f4; }
+.bgc-f6{ background-color: #f6f6f6; }
+.bgc-f8{ background-color: #f8f8f8; }
+
+//鼠标
+.pointer { cursor: pointer; }
+.arrow { cursor: default; }
+
+//盒子
+.b-1{ border: 1px solid  #C0C4CC; }
+.b-2{ border: 2px solid #C0C4CC; }
+.bb-1{ border-bottom: 1px solid #C0C4CC; }
+.bb-2{ border-bottom: 2px solid  #C0C4CC; }
+.brs-4{ border-radius: 4px; }
+.brs-p50{ border-radius: 50%; }
+
